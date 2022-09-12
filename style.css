@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#main{
+    color:white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.results{
+    background-color: rgb(54, 19, 94);
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#welcome{
+    font-size: 400%;
+}
+
+#dotCode{
+    height:100px;
+    background-color:rgb(17, 189, 17);
+    width: 35%;
+    
+}
+
+
+#dotWhich{
+    height:100px;
+    background-color:rgb(17, 189, 17);
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#upper{
+    height:20%;
+    background-color: darkgray;
+    text-align: center;
+}
+
+#whichResult{
+    height:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+}
+
+#codeResult{
+    height:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+}
