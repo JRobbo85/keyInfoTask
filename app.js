@@ -1,6 +1,3 @@
-
-
-
 document.addEventListener("keydown", (event) => {
     const welcome = document.getElementById("welcome")
     const codeDisplay = document.getElementById("codeResult")
