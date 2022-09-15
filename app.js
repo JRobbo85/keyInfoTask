@@ -4,8 +4,8 @@
     
     
     document.addEventListener("keydown", (event) => {
-    welcome.textContent = `Key Selected: ${event.key}` 
-    codeDisplay.textContent = `${event.code}`
-    whichDisplay.textContent = `${event.which}`
-    document.getElementById("output").appendChild(welcome)
+        welcome.textContent = `Key Selected: ${event.key}` 
+        codeDisplay.textContent = `${event.code}`
+        whichDisplay.textContent = `${event.which}`
+        document.getElementById("output").appendChild(welcome)
 })
